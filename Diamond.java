@@ -5,6 +5,8 @@ public static void main(String args[])
 {
 int n, i, j, space = 1;
 System.out.print("Enter the number of rows: ");
+  System.out.print();
+  
 Scanner s = new Scanner(System.in);
 n = s.nextInt();
 space = n - 1;
